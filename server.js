@@ -7,7 +7,7 @@ require('./config/database');
 
 var indexRouter = require('./routes/index');
 var flightsRouter = require('./routes/flights');
-//destonation router
+var destinationsRouter = require('./routes/destinations');
 var app = express();
 
 // view engine setup
